@@ -17,11 +17,13 @@ function getYear(str) {
 }
 console.log('getYear() :>> ', getYear(publicationDate));
 
-/* Arrow functions 
+/* Arrow functions.
+0. Also called funciton expressions.
 1. Remove the function keyword
-2. Remove the curly braces
-3. Remove the return keyword
-4. Arrow goes between the parentheses and the curly braces
+2. Remove the curly braces, so that it returns the result automatically, 
+3. if its miltiline, then wrap it up with curly braces and explicitly return th resukt return keyword
+4. Remove the return keyword
+5. Arrow goes between the parentheses and the curly braces
 
 -->> so, finally Arrow function is a shorter way to write a function and it is more concise.
 -->> it can be also one line of code and use it in a single line of code.
